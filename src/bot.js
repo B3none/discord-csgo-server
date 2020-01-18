@@ -10,7 +10,9 @@ const updateStatus = () => {
   query
     .info(process.env.SERVER_IP, Number(process.env.SERVER_PORT), 2000)
     .then(({playersnum, maxplayers}) => {
-      client.user.setActivity(`${playersnum} / ${maxplayers} Online`);
+      if (client.user) {
+        client.user.setActivity(`${playersnum} / ${maxplayers} Online`);
+      }
     })
     .catch(console.log);
 };
