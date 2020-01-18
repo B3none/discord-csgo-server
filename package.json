@@ -1,0 +1,19 @@
+{
+  "name": "discord-csgo-server",
+  "version": "1.0.0",
+  "description": "Monitor CS:GO players / spaces and display them on a simple Discord bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b3none/discord-csgo-server.git"
+  },
+  "author": "B3none",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b3none/discord-csgo-server/issues"
+  },
+  "homepage": "https://github.com/b3none/discord-csgo-server#readme"
+}
